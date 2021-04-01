@@ -9,6 +9,4 @@ router.get('/',(req,res)=>{
 
 router.post('/registration',action.userRegister)
 
-router.get('/users',action.getUsers)
-
 module.exports = router

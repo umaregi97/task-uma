@@ -1,6 +1,5 @@
 const express = require('express');
 let route = require('./routes.js');
-let axios = require('axios')
 var bodyParser = require('body-parser');
 require('./config/mongoose');
 const app = express();
